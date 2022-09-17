@@ -1,19 +1,45 @@
 {
-  "name": "not-just-chess",
+  "name": "profile-builder",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "nodemon",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@mui/icons-material": "^5.3.0",
+    "@mui/lab": "^5.0.0-alpha.66",
+    "@mui/material": "^5.3.0",
+    "@types/date-fns": "^2.6.0",
+    "axios": "^0.25.0",
+    "body-parser": "^1.19.1",
+    "chess.js": "^0.12.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^14.2.0",
+    "express": "^4.17.2",
+    "express-session": "^1.17.2",
+    "mongoose": "^6.1.7",
     "next": "12.0.8",
+    "passport": "^0.5.2",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^6.1.0",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-chessboard": "^1.0.2",
+    "react-dom": "17.0.2",
+    "simple-peer": "^9.6.2",
+    "socket.io-client": "^4.4.1",
+    "uuid": "^8.3.2",
+    "validator": "^13.7.0"
   },
   "devDependencies": {
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
     "eslint": "8.7.0",
-    "eslint-config-next": "12.0.8"
+    "eslint-config-next": "12.0.8",
+    "nodemon": "^2.0.15"
   }
 }
